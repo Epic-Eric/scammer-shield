@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Scammer Shield</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <script src="script.js"></script>
 </head>
 <body>
@@ -17,13 +18,14 @@
 
     <section class="info">
         <h2>Input</h2>
-        <label>Website: </label>
-        <input id="url" placeholder="enter website url here" type="text"><br><br>
-        <button id="submit">submit</button><br><br>
+        <form id="scamForm">
+            <label for="url">Website:</label>
+            <input id="url" name="url" placeholder="Enter website URL here" type="text"><br><br>
+            <button type="submit">Submit</button><br><br>
+        </form>
 
         <h2>Results</h2>
         <p id="website"></p>
     </section>
-    
 </body>
 </html>
