@@ -1,0 +1,68 @@
+body {
+    background-color: #f5e1ff; /* Light purple color */
+}
+
+.intro h1 {
+    font-family: 'Poppins', sans-serif;
+    /* Other styles for your heading */
+}
+.info h2 {
+    font-family: 'Poppins', sans-serif;
+    /* Other styles for your heading */
+}
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.info {
+    text-align: center;
+}
+
+.shield {
+    font-size: 24px; /* Adjust the font size as needed */
+    color: #888; /* Light grey color */
+}
+
+/* Style for the input section */
+#scamForm {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Style for the input field */
+#url {
+    padding: 10px;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the submit button */
+#scamForm button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the submit button */
+#scamForm button:hover {
+    background-color: #45a049;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
